@@ -433,6 +433,9 @@ h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+.phone-white {
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -743,7 +746,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   background: url("../img/about-bg.jpg") center center;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   padding: 80px 0;
 }
