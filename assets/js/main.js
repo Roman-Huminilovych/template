@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  ("use strict");
 
   /**
    * Easy selector helper function
@@ -233,6 +233,23 @@
     slidesPerView: "auto",
     pagination: {
       el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  /**
+   * Halls slider
+   */
+  new Swiper(".halls-slider", {
+    speed: 700,
+    loop: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
       type: "bullets",
       clickable: true,
     },
