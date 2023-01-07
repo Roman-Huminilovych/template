@@ -681,6 +681,7 @@ section {
 }
 
 .section-title p {
+  text-align: center;
   margin: 0;
   margin: 0;
   font-size: 36px;
@@ -979,6 +980,15 @@ section {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+.menu-item-title {
+  display: flex;
+  justify-content: center;
+  margin-left: 85px;
+  font-style: italic;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 0.5);
 }

@@ -242,10 +242,29 @@
    * Halls slider
    */
   new Swiper(".halls-slider", {
-    speed: 700,
+    spaceBetween: 1300,
+    speed: 1000,
     loop: true,
     autoplay: {
-      delay: 4500,
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  /**
+   * Halls slider
+   */
+  new Swiper(".halls-slider-green", {
+    spaceBetween: 1500,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+      delay: 3000,
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
