@@ -239,39 +239,39 @@
   });
 
   /**
-   * Halls slider
+   * Halls slider wedding
    */
   new Swiper(".halls-slider", {
-    spaceBetween: 1300,
+    spaceBetween: 1200,
     speed: 1000,
     loop: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,
     },
-    slidesPerView: "auto",
-    pagination: {
-      type: "bullets",
-      clickable: true,
-    },
+    // slidesPerView: "auto",
+    // pagination: {
+    //   type: "bullets",
+    //   clickable: true,
+    // },
   });
 
   /**
-   * Halls slider
+   * Halls slider green
    */
   new Swiper(".halls-slider-green", {
-    spaceBetween: 1500,
+    spaceBetween: 1200,
     speed: 1000,
     loop: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,
     },
-    slidesPerView: "auto",
-    pagination: {
-      type: "bullets",
-      clickable: true,
-    },
+    // slidesPerView: "auto",
+    // pagination: {
+    //   type: "bullets",
+    //   clickable: true,
+    // },
   });
 
   /**
