@@ -249,29 +249,74 @@
       delay: 3000,
       disableOnInteraction: false,
     },
-    // slidesPerView: "auto",
-    // pagination: {
-    //   type: "bullets",
-    //   clickable: true,
-    // },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
   });
 
   /**
    * Halls slider green
    */
   new Swiper(".halls-slider-green", {
-    spaceBetween: 1200,
+    spaceBetween: 900,
     speed: 1000,
     loop: true,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,
     },
-    // slidesPerView: "auto",
-    // pagination: {
-    //   type: "bullets",
-    //   clickable: true,
-    // },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  new Swiper(".halls-slider-gray", {
+    spaceBetween: 1000,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  new Swiper(".halls-slider-terrace", {
+    spaceBetween: 800,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
+  });
+
+  new Swiper(".halls-slider-first", {
+    spaceBetween: 700,
+    speed: 1000,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      type: "bullets",
+      clickable: true,
+    },
   });
 
   /**
